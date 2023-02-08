@@ -502,8 +502,11 @@ body.active-popup .popup{
 .popup-social{
 	display: flex;
 }
-.popup{
-	color: #3d630b;
+.popup p{
+	color: brown;
+	font-size: large;
+	font-style: italic;
+
 }
 .pre-btn {
 	left: 0;
