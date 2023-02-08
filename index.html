@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<body>
+	<section id="section1">
+	<!----hero Section start---->
+
+	<div class="hero"> 
+		<nav>
+			<h2 class="logo">My Portfolio</h2>
+			<ul>
+				<li><a class="active" href="section1">Home</a></li>
+				<li><a href="#section2">About Us</a></li>
+				<li><a href="#section3">Skills</a></li>
+				<li><a href="#section4">Projects</a></li>
+				<li><a href="#section5">Contact Us</a></li>
+			</ul>
+			
+		</nav>
+        <div>
+		<div class="content">
+			<h4>Hi my name is</h4>
+			<h1>James Gathungu</h1>
+			<h3><span>I'am a Web Developer.</span></h3>
+		</div>
+		<img src="./images/img3.jpg" height="400" width="600" style="float: right; margin-right: 150px;">
+		</div>
+	</div>
+	<hr>
+	</section>
+	<section class="about" id="section2">
+		<div class="main">
+			<img src="./images/img2.png">
+			<div class="about-text">
+
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a full-stack developer and UI/UX designer with figma. I can make a beautiful and pixel perfect web-page designs. I also build
+			        responsive website more & more interactive which can be accessible to all users, regardless of their device.</p>
+				<button style="margin-right: 30px;" id="open-popup" type="button">Hire Me</button>
+				<button onclick="location.href='document/example.pdf';">My Resume</button>
+			</div>
+		</div>
+		<div class="popup">
+			<button class="close-btn">close</button>
+			<div class="popup-content">
+			<p>Please use the contacts below to reach out to me</p>
+			<div class="popup-social">
+			  <a href="#"><i class="far fa-envelope"></i></a><h4 style="color: rgb(32, 29, 29);">jamesgathungun@gmail.com</h4>
+		    </div>
+			<div class="popup-social">
+			  <a href="#"><i class="fab fa-whatsapp"></i></a><h4 style="color: rgb(27, 23, 23);">0743481039</h4>
+			</div>
+			</div>
+		   </div> 
+		   <script>
+			document.querySelector("#open-popup").addEventListener("click", function(){
+				document.body.classList.add("active-popup");
+			});
+			document.querySelector(".popup .close-btn").addEventListener("click", function(){
+				document.body.classList.remove("active-popup")
+			})
+		   </script>
+	</section>
+	<hr>
+	<section id="section3">
+		<div class="main2">
+			<h2>My Skills</h2>
+			<div class="skills">
+				<p>
+				<button>Laravel</button>
+				<button>React js</button>
+				<button>PHP</button>
+				<button>Python</button>
+				<button>MySQL</button>
+				</p>
+				<p>
+			    <button>JavaScript</button>
+				<button>Figma</button>
+				<button>Networking</button>
+				<button>Computer Hardware</button>
+				<button>Bootstrap</button>
+				</p>
+			</div>
+		</div>
+	<hr>
+	</section>
+	<!-----service section start----------->
+	<section id="section4">
+	<div class="service">
+		<div class="title">
+			<h2>My Projects</h2>
+		</div>
+		<button class="pre-btn"><i class="	fas fa-arrow-left"></i></button>
+        <button class="nxt-btn"><i class="	fas fa-arrow-right"></i></button>
+        <div class="box">
+			<div class="card">
+				<img src="./images/pic2.png" height="200" width="335">
+				<h5>Todo-App</h5>
+				<div class="pra">
+					<p>This project was built as part of React js basic from w3school.
+						 I added local storage for its data input. </p>
+                  
+					<p style="text-align: center;">
+						<a class="button" href="https://todo-list-app-delta-olive.vercel.app/">Live Demo</a>
+						<a class="button" href="https://github.com/developerjame/Todo-list-app.git">GitHub</a>
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./images/pic1.png" height="200" width="335">
+				<h5>Agroproduct E-market</h5>
+				<div class="pra">
+					<p>This is a web application that contains digital marketing and simple 
+						farmer's admin page consisting of inventory system. I built it with php
+					as backend; html, css, bootstrap and javascript as frontend</p>
+                  <div class="card-2">
+					<p style="text-align: center;">
+						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="https://github.com/developerjame/Agroproducts.git">GitHub</a>
+					</p>
+				</div>
+				</div>
+				
+			</div>
+
+			<div class="card">
+				<img src="./images/pic3.png" height="200" width="335">
+				<h5>Login form validation</h5>
+					<h5> system</h5>
+				<div class="pra">
+					<p>I built it with React js hooks and other React features. initially, it was built
+						without any single validation. Eventually added all the required validation including
+						input, email, password and confirm-passowrd validations.
+					</p>
+					<p style="text-align: center;">
+						<a class="button" href="react-js-login-system-validation-ensyqwkwh-developerjame.vercel.app">Live Demo</a>
+						<a class="button" href="https://github.com/developerjame/react-js_login-system-validation.git">GitHub</a>
+					</p>
+			    </div>
+		    </div>
+			<div class="card">
+				<img src="./images/pic3.png" height="200" width="335">
+				<h5>Login form validation</h5>
+					<h5> system</h5>
+				<div class="pra">
+					<p>I built it with React js hooks and other React features. initially, it was built
+						without any single validation. Eventually added all the required validation including
+						input, email, password and confirm-passowrd validations.
+					</p>
+					<p style="text-align: center;">
+						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="https://github.com/developerjame/react-js_login-system-validation.git">GitHub</a>
+					</p>
+			    </div>
+		    </div>
+			<div class="card">
+				<img src="./images/pic3.png" height="200" width="335">
+				<h5>Login form validation</h5>
+					<h5> system</h5>
+				<div class="pra">
+					<p>I built it with React js hooks and other React features. initially, it was built
+						without any single validation. Eventually added all the required validation including
+						input, email, password and confirm-passowrd validations.
+					</p>
+					<p style="text-align: center;">
+						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="https://github.com/developerjame/react-js_login-system-validation.git">GitHub</a>
+					</p>
+			    </div>
+		    </div>
+			<div class="card">
+				<img src="./images/pic3.png" height="200" width="335">
+				<h5>Login form validation</h5>
+					<h5> system</h5>
+				<div class="pra">
+					<p>I built it with React js hooks and other React features. initially, it was built
+						without any single validation. Eventually added all the required validation including
+						input, email, password and confirm-passowrd validations.
+					</p>
+					<p style="text-align: center;">
+						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="https://github.com/developerjame/react-js_login-system-validation.git">GitHub</a>
+					</p>
+			    </div>
+		    </div>
+			<div class="card">
+				<img src="./images/pic3.png" height="200" width="335">
+				<h5>Login form validation</h5>
+					<h5> system</h5>
+				<div class="pra">
+					<p>I built it with React js hooks and other React features. initially, it was built
+						without any single validation. Eventually added all the required validation including
+						input, email, password and confirm-passowrd validations.
+					</p>
+					<p style="text-align: center;">
+						<a class="button" href="#">Live Demo</a>
+						<a class="button" href="https://github.com/developerjame/react-js_login-system-validation.git">GitHub</a>
+					</p>
+			    </div>
+		    </div>
+		</div>
+	</div>
+<hr>
+</section>
+<script>
+	const productContainers = [...document.querySelectorAll('.box')];
+    const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+    const preBtn = [...document.querySelectorAll('.pre-btn')];
+
+    productContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})
+</script>
+	
+	<section id="section5">
+	<footer>
+		
+		<div class="contact-me">
+			<h1>Contact us</h1>
+			<div class="container">
+				
+				<form action="/action_page.php">
+				  <label for="fname">First Name</label>
+				  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+			  
+				  <label for="lname">Last Name</label>
+				  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			  
+				  <label for="subject">Subject</label>
+				  <textarea id="subject" name="subject" style="height:100px"></textarea>
+				  
+				
+				  <input type="submit" value="Submit">
+				</form>
+			  </div>
+			  
+		</div>
+		<p>For more information - please contact me as below:</p>
+		<div class="social">
+			
+			<a href="#"><i class="far fa-envelope"></i></a><h4 style="color: white; margin-right: 20px;">jamesgathungun@gmail.com</h4>
+			<a href="#"><i class="fas fa-phone"></i></a><h4 style="color: white;">0743481039</h4>
+
+		</div>
+  
+		<p style="color: white;">For more Web-applications and designs - please click on the links belows:</p>
+		<div class="social">
+			
+			<a href="#"><i class="fab fa-github"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+
+		</div>
+
+	</footer>
+	</sections>
+</body>
+
+</html>
