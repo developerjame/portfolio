@@ -5,6 +5,8 @@
 	<title>Portfolio website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -14,6 +16,10 @@
 
 	<div class="hero"> 
 		<nav>
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+				<i class="fa fa-bars"></i>
+			</label>
 			<h2 class="logo">My Portfolio</h2>
 			<ul>
 				<li><a class="active" href="#section1">Home</a></li>
@@ -24,13 +30,11 @@
 			</ul>
 			
 		</nav>
-        <div>
 		<div class="content">
+			<img src="./images/img3.jpg" height="400" width="600" style="margin-bottom: 30px; border-bottom: 2px solid brown;">
 			<h4>Hi my name is</h4>
 			<h1>James Gathungu</h1>
 			<h3><span>I'am a Web Developer.</span></h3>
-		</div>
-		<img src="./images/img3.jpg" height="400" width="600" style="float: right; margin-right: 150px;">
 		</div>
 	</div>
 	<hr>
@@ -59,7 +63,7 @@
 			  <a href="#"><i class="fab fa-whatsapp"></i></a><h4 style="color: rgb(27, 23, 23);">0743481039</h4>
 			</div>
 			</div>
-		   </div> 
+		</div> 
 		   <script>
 			document.querySelector("#open-popup").addEventListener("click", function(){
 				document.body.classList.add("active-popup");
