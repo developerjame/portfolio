@@ -512,11 +512,12 @@ body.active-popup .popup{
 	font-size: 20px;
 }
 .popup-social h4{
-	font-size: large;
-	margin: 35px 1px;
+	font-size: xx-large;
+	margin: 24px 1px;
 }
 .popup-social{
 	display: flex;
+	margin-top: 20px;
 }
 .popup p{
 	color: brown;
