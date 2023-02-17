@@ -139,7 +139,7 @@ h3{
 }
 h4{
 	color: #030001;
-	font-size: 20px;
+	font-size: 30px;
 }
 .about{
 	width: 100%;
@@ -444,7 +444,7 @@ footer p:nth-child(2){
     transform: translate(-50%, -50%);
     width: 98%;
     max-width: 450px;
-	height: 50%;
+	height: 450px;
     padding: 20px;
     background: #fff;
     border-radius: 10px;
@@ -477,13 +477,13 @@ footer p:nth-child(2){
 body.active-popup{
     overflow: hidden;
 }
-body.active-popup .main{
-    filter: blur(5px);
+body.active-popup .main-body{
+    filter: blur(10px);
     background: rgba(0, 0, 0, 0.08);
     transition: filter 0ms ease-in-out 0ms;
 }
 body.active-popup .popup{
-    top: 145%;
+    top: 1150px;
     opacity: 1;
     margin-top: 0px;
     transition: top 0ms ease-in-out 0ms,

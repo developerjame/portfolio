@@ -11,6 +11,7 @@
 </head>
 
 <body>
+	<div class="main-body">
 	<section id="section1">
 	<!----hero Section start---->
 
@@ -20,7 +21,7 @@
 			<label for="check" class="checkbtn">
 				<i class="fa fa-bars"></i>
 			</label>
-			<h2 class="logo">My Portfolio</h2>
+			<img src="./images/img1.png" height="100" width="180" style="margin-top: -30px;">
 			<ul>
 				<li><a class="active" href="#section1">Home</a></li>
 				<li><a href="#section2">About Us</a></li>
@@ -52,26 +53,7 @@
 				<button onclick="location.href='document/example.pdf';">My Resume</button>
 			</div>
 		</div>
-		<div class="popup">
-			<button class="close-btn">close</button>
-			<div class="popup-content">
-			<p>Contact me via:</p>
-			<div class="popup-social">
-			  <a href="#"><i class="far fa-envelope"></i></a><h4 style="color: rgb(32, 29, 29);">jamesgathungun@gmail.com</h4>
-		    </div>
-			<div class="popup-social">
-			  <a href="#"><i class="fab fa-whatsapp"></i></a><h4 style="color: rgb(27, 23, 23);">0743481039</h4>
-			</div>
-			</div>
-		</div> 
-		   <script>
-			document.querySelector("#open-popup").addEventListener("click", function(){
-				document.body.classList.add("active-popup");
-			});
-			document.querySelector(".popup .close-btn").addEventListener("click", function(){
-				document.body.classList.remove("active-popup")
-			})
-		   </script>
+		
 	</section>
 	<hr>
 	<section id="section3">
@@ -208,7 +190,7 @@
 				
 				  <input type="submit" value="Submit">
 				</form>
-			  </div>
+		    </div>
 			  
 		</div>
 		<p>For more information - please contact me as below:</p>
@@ -228,7 +210,27 @@
 		</div>
 
 	</footer>
-	</sections>
+	</section>
+	</div>
+	<div class="popup">
+		<button class="close-btn">close</button>
+		<div class="popup-content">
+		<p>Contact me via:</p>
+		<div class="popup-social">
+		  <a href="#"><i class="far fa-envelope"></i></a><h4 style="color: rgb(32, 29, 29);">jamesgathungun@gmail.com</h4>
+		</div>
+		<div class="popup-social">
+		  <a href="#"><i class="fab fa-whatsapp"></i></a><h4 style="color: rgb(27, 23, 23);">0743481039</h4>
+		</div>
+		</div>
+	</div> 
+	   <script>
+		document.querySelector("#open-popup").addEventListener("click", function(){
+			document.body.classList.add("active-popup");
+		});
+		document.querySelector(".popup .close-btn").addEventListener("click", function(){
+			document.body.classList.remove("active-popup")
+		})
+	   </script>
 </body>
-
 </html>
