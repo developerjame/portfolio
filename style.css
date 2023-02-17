@@ -443,7 +443,7 @@ footer p:nth-child(2){
     left: 50%;
     transform: translate(-50%, -50%);
     width: 98%;
-    max-width: 450px;
+    max-width: 650px;
 	height: 450px;
     padding: 20px;
     background: #fff;
@@ -472,7 +472,7 @@ footer p:nth-child(2){
 	text-align: center;
 	padding-right: 15%;
 	padding-bottom: 7%;
-	font-size: medium;
+	font-size: x-large;
 }
 body.active-popup{
     overflow: hidden;
@@ -512,7 +512,7 @@ body.active-popup .popup{
 	font-size: 20px;
 }
 .popup-social h4{
-	font-size: medium;
+	font-size: large;
 	margin: 35px 1px;
 }
 .popup-social{
@@ -520,7 +520,7 @@ body.active-popup .popup{
 }
 .popup p{
 	color: brown;
-	font-size: large;
+	font-size: x-large;
 	font-style: italic;
 
 }
