@@ -110,7 +110,7 @@
 						the frontend.</p>
                   <div class="card-2">
 					<p style="text-align: center;">
-						<a class="button" href="#">Live Demo</a>
+						<a class="button" onclick="myFunction()" href="#section4">Live Demo</a>
 						<a class="button" href="https://github.com/developerjame/Agroproducts.git">GitHub</a>
 					</p>
 				</div>
@@ -150,10 +150,12 @@
 				<img src="./images/pic6.png" height="200" width="335">
 				<h5>Software Job Posting App</h5>
 				<div class="pra">
-					<p>My first Laravel app project is done as practice.
+					<p>This application allows employers to sign in, post job vacancies for job seekers to view, 
+						and enables job seekers to browse and contact potential employers. Employers can also manage 
+						their job postings through the platform.
 					</p>
 					<p style="text-align: center;">
-						<a class="button" href="#">Live Demo</a>
+						<a class="button" onclick="myFunction()" href="#section4">Live Demo</a>
 						<a class="button" href="https://github.com/developerjame/Software-Job-Posting_App.git">GitHub</a>
 					</p>
 			    </div>
@@ -167,8 +169,23 @@
 						Using JavaScript, the website now calculates estimated costs for various vehicle services.
 					</p>
 					<p style="text-align: center;">
-						<a class="button" href="">Live Demo</a>
+						<a class="button" onclick="myFunction()" href="#section4">Live Demo</a>
 						<a class="button" href="https://github.com/developerjame/Vehicle-Mechanic_App.git">GitHub</a>
+					</p>
+			    </div>
+		    </div>
+
+			<div class="card">
+				<img src="./images/pic7.png" height="200" width="335">
+				<h5>Student Graduation Clearance System</h5>
+				<div class="pra">
+					<p>This platform offers distinct dashboards for students, officers, and administrators. Administrators 
+						manage student and officer activities, while officers clear students within their departments. Students 
+						initiate clearance and fee payment. Backend is built with PHP.
+					</p>
+					<p style="text-align: center;">
+						<a class="button" onclick="myFunction()" href="#section4">Live Demo</a>
+						<a class="button" href="https://github.com/developerjame/Student-Graduation-Clearance-System.git">GitHub</a>
 					</p>
 			    </div>
 		    </div>
@@ -256,6 +273,12 @@
 		document.querySelector(".popup .close-btn").addEventListener("click", function(){
 			document.body.classList.remove("active-popup")
 		})
+	   </script>
+
+	   <script>
+		function myFunction(){
+			alert("The application has not been deployed online yet. Click on GitHub link to view the project.")
+		}
 	   </script>
 </body>
 </html>
