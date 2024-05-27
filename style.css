@@ -251,7 +251,7 @@ button:hover{
 	height: 50%;
 	background: #f2f2f3;
 	width: 100%;
-	padding: 80px 250px;
+	padding: 80px 15%;
 	margin: 0px 0px;
 	
 }
@@ -259,7 +259,7 @@ button:hover{
 	height: 50%;
 	background: #fff;
 	width: 100%;
-	padding: 80px 250px;
+	padding: 80px 15%;
 	margin: 0px 0px;
 }
 .title h2{
@@ -593,12 +593,12 @@ body.active-popup .popup{
 	left: 0;
 	position: absolute;
 	margin-top: 15%;
-	margin-left: 100px;
+	margin-left: 6%;
 }
   
 .nxt-btn {
 	right: 0;
 	position: absolute;
 	margin-top: 15%;
-	margin-right: 100px;
+	margin-right: 6%;
 }
