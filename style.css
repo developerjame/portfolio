@@ -30,11 +30,15 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 45px;
+	padding-top: 10px;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	background-color: #d9dadf;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid rgb(172, 172, 172);
+	
 	
 }
 .logo{
@@ -123,10 +127,12 @@ nav ul li a:hover{
 	transform: scale(1.2);
 }
 .content{
-	padding-top: 20px;
-	overflow-x: hidden;
-	min-height: auto;
-	text-align: center;
+	width: 1130px;
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 h1{
 	color: #030001;
@@ -147,14 +153,28 @@ h4{
 	padding: 100px 0px;
 	background-color: #f2f2f3;
 }
+.home{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #fff;
+}
 
 .about-text{
 	text-align: left;
 	width: 430px;
 }
+.home-text{
+	text-align: left;
+	width: 650px;
+	padding-top: 80px;
+}
 .about img{
 	height: auto;
 	width: 430px;
+}
+.home img{
+	height: auto;
+	width: 650px;
 }
 .main{
 	width: 1130px;
@@ -164,9 +184,17 @@ h4{
 	align-items: center;
 	justify-content: space-around;
 }
+.home-main{
+	width: 1500px;
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
 .main2{
 	padding: 100px 0px;
-	position: relative;
+	
 	width: 100%;
 	height: auto;
 	display: flex;
@@ -215,6 +243,19 @@ h4{
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
+.home-text h3{
+	color: rgb(48, 45, 45);
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.home-text h4{
+	color: rgb(29, 28, 28);
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	
+}
 .about-text h5{
 	color: #2B60DE;
 	letter-spacing: 2px;
@@ -222,7 +263,21 @@ h4{
 	margin-bottom: 25px;
 	text-transform: capitalize;
 }
+.home-text h5{
+	color: #131212;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
 .about-text p{
+	color: #030001;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.home-text p{
 	color: #030001;
 	letter-spacing: 1px;
 	line-height: 28px;
@@ -484,6 +539,23 @@ footer p:nth-child(2){
 	margin: 22px 10px;
 	margin-bottom: 50px;
 	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social-icons{
+	display: flex;
+}
+.social-icons a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #2B60DE;
+	border-radius: 50%;
+	margin: 22px 10px;
+	margin-bottom: 50px;
+	color: #2B60DE;
 	text-decoration: none;
 	font-size: 20px;
 }

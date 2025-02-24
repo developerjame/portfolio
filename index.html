@@ -13,38 +13,44 @@
 
 <body>
 	<div class="main-body">
-	<section id="section1">
-	<!----hero Section start---->
-
-	<div class="hero"> 
 		<nav>
 			<input type="checkbox" id="check">
-			<label for="check" class="checkbtn">
+			<label id="hamburger" for="check" class="checkbtn">
 				<i class="fa fa-bars"></i>
 			</label>
-			<img src="./images/logo2.png" height="70" width="200" style="margin-top: -30px;">
+			<img src="./images/logo2.png" height="70" width="200" style="margin-top: 0px;">
 			<ul>
-				<li><a class="active" href="#section1">Home</a></li>
-				<li><a href="#section2">About</a></li>
-				<li><a href="#section3">Skills</a></li>
-				<li><a href="#section4">Projects</a></li>
-				<li><a href="#sectionUI">UI Designs</a></li>
-				<li><a href="#section5">Contact</a></li>
+				<li><a id="menu-nkli" class="active" href="#section1">Home</a></li>
+				<li><a id="menu-nkli" href="#section2">About</a></li>
+				<li><a id="menu-nkli" href="#section3">Skills</a></li>
+				<li><a id="menu-nkli" href="#section4">Projects</a></li>
+				<li><a id="menu-nkli" href="#section5">Contact</a></li>
 			</ul>
 			
 		</nav>
-		<div class="content">
-			<img src="./images/img3.jpg" height="400" width="600" style="margin-bottom: 30px; border-bottom: 2px solid brown;">
-			<h4>Hi my name is</h4>
-			<h1>James Gathungu</h1>
-			<h3><span>I'am a Web Developer.</span></h3>
+	<section class="home" id="section1">
+	<!----hero Section start---->
+    <div class="home-main">
+		<div class="home-text">
+
+			<h4>Hello, it's me</h4>
+			<h3>James <Span>Gathungu</Span></h3>
+			<h4>I am a Web Developer</h4>
+			<p>Please hold your breath as we dive into a world full of creativity with developer James</p>
+			<div class="social-icons">
+				<a href=""><i class="fab fa-facebook"></i></a>
+				<a href=""><i class="fab fa-linkedin"></i></a>
+				<a href=""><i class="fab fa-instagram"></i></a>
+				<a href=""><i class="fab fa-youtube"></i></a>	
+			</div>
 		</div>
+		<img src="./images/img3.jpg">
 	</div>
 	
 	</section>
 	<section class="about" id="section2">
 		<div class="main">
-			<img src="./images/img2.png">
+			<img src="./images/img.png">
 			<div class="about-text">
 
 				<h2>About</h2>
@@ -340,5 +346,6 @@
 			alert("The application has not been deployed online yet. Click on GitHub link to access the project source code.")
 		}
 	   </script>
+	   
 </body>
 </html>
